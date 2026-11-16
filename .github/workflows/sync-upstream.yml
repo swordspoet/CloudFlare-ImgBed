@@ -6,8 +6,8 @@ permissions:
   issues: write
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # every day
+  # schedule:
+  #  - cron: "0 0 * * *" # every day
   workflow_dispatch:
     inputs:
       confirm_breaking_update:
